@@ -1,8 +1,58 @@
-.my-img-brand{
-    width: 200px;
-    vertical-align: middle;
+.my-img-logo{
+    width: 150px;
+    
 }
-
 .my-navbar{
     height: 80px;
+    line-height: 80px;
 }
+
+
+.lista-disline{
+    display: inline-block;
+    
+    
+}
+
+.my-lista{
+    margin-left: 150px;
+}
+
+.my-navbar a{
+    color: black;
+}
+
+#my-btn-nav{
+    border: 1px solid rgb(0 , 106, 255 );
+    color: rgb(0, 106, 255);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.my-btncollasso{
+    background-color: transparent;
+    display: none;
+    
+}
+
+.my-icon-bar{
+    height: 2px;
+    width: 22px;
+    background-color:  rgb(0 , 106, 255 );
+    display:block;
+    margin: 5px 0;
+}
+
+@media all and (max-width: 991px){
+    .collasso{
+        display: none;
+    }
+    .my-btncollasso{
+        display: inline-block;
+        float: right;
+        position: relative;
+        top: 50%;
+        transform: translateY(-50%);
+}
+
+
