@@ -32,7 +32,7 @@
 .my-btncollasso{
     background-color: transparent;
     display: none;
-    
+  
 }
 
 .my-icon-bar{
@@ -43,16 +43,67 @@
     margin: 5px 0;
 }
 
+.my-pd-pagina{
+    padding: 40px 0;
+}
+
+.hero{
+    background-image: url(img/bg-banner-home.jpg);
+    background-size: contain;
+}
+
+.size-hero-h1{
+    font-size: 50px
+}
+
+.size-hero{
+    font-size: 22px;
+    color:rgb(187, 205, 255)
+}
+
+.text-white{
+    color: white;
+}
+
+.color-get{
+    color:  rgb(0 , 106, 255 );
+}
+.my-form{
+    border: none;
+}
+.btn-account{
+    color: white;
+    background-color: rgb(87, 154, 255);
+
+}
+.btngoogle{
+    position: relative;
+    background-color: white;
+    border-bottom: 1px solid lightgray;
+    margin: 10px 0;
+    color: gray;
+}
+
+.icon-google{
+    height: 25px;
+    position: absolute;
+    left: 5px;
+}
+
+
+
+
 @media all and (max-width: 991px){
     .collasso{
         display: none;
     }
     .my-btncollasso{
         display: inline-block;
-        float: right;
         position: relative;
         top: 50%;
         transform: translateY(-50%);
+        float: right;
 }
 
 
+}
