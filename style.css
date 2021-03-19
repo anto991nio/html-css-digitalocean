@@ -165,6 +165,29 @@
     border-radius: 50px;
 }
 
+/* stele sezione tabellare */
+
+.bg-grade{
+    background-image: linear-gradient(to bottom, rgb(0, 71, 197), rgb(0, 32, 155));
+}
+
+.bg-grade li{
+    border-bottom: 1px solid white;
+    line-height: 40px;
+}
+
+.bg-grade span{
+    display: inline-block;
+    width: 80px;
+}
+
+.bg-grade p{
+    width: 250px;
+}
+
+.bg-grade .no-bordo{
+    border-bottom: transparent;
+}
 
 
 
