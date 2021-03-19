@@ -108,6 +108,37 @@
     color: rgb(111 , 123 , 151);
 }
 
+/* stile sezione deploy-scala */
+
+.deploy-scale h2{
+    font-size: 40px;
+}
+
+.deploy-scale p{
+    color: rgb(111 , 123 , 151);
+}
+
+.deploy-scale h5{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.my-btnlist{
+    border-bottom: 0;
+    border-top: 0;
+    border-right: 0;
+}
+
+.deploy-scale .my-btnlist:hover{
+    border-color: rgb(0 , 106, 255 );
+    background-color: white;
+}
+
+.margin-colon{
+    margin-top: 20px;
+}
+
+
 
 
 
