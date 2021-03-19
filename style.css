@@ -95,7 +95,7 @@
 
 
 /* stile sezione logo */
-.logo-bar{
+.bg-gray{
     background-color: rgb(243, 245, 249);
 }
 
@@ -139,6 +139,34 @@
 }
 
 
+/* stile sezione slide */
+.larghezza-max{
+    max-width: 80%;
+    margin: 0 20px;
+    vertical-align: middle;
+
+}
+.massimo{
+    max-width: 100%;
+    margin-bottom: 10px;
+}
+
+.cerchio-1{
+    height: 10px;
+    width: 10px;
+    background-color: rgb(0 , 106, 255 );
+    border-radius: 50px;
+}
+
+.cerchio{
+    height: 10px;
+    width: 10px;
+    border:1px solid rgb(0 , 106, 255 );
+    border-radius: 50px;
+}
+
+
+
 
 
 
@@ -152,7 +180,13 @@
         top: 50%;
         transform: translateY(-50%);
         float: right;
-}
+    }
+
+
+        .larghezza-max {
+            margin-top: 80px;
+            margin-bottom: 80px;
+        }
 
 
 }
