@@ -201,6 +201,17 @@
     margin-bottom: 50px;
 }
 
+/* stile sezione pulsante */
+
+.my-btn-wh{
+    padding: 10px;
+    background-color: white;
+    border-radius: 5px;
+    font-size: 20px;
+    margin-top: 20px;
+    display: inline-block;
+}
+
 
 
 
