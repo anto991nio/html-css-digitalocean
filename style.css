@@ -104,7 +104,7 @@
     height: 100px;
 }
 
-.logo-bar h4{
+.color-g{
     color: rgb(111 , 123 , 151);
 }
 
@@ -114,9 +114,7 @@
     font-size: 40px;
 }
 
-.deploy-scale p{
-    color: rgb(111 , 123 , 151);
-}
+
 
 .deploy-scale h5{
     font-size: 20px;
@@ -141,7 +139,7 @@
 
 /* stile sezione slide */
 .larghezza-max{
-    max-width: 80%;
+    max-width: 60%;
     margin: 0 20px;
     vertical-align: middle;
 
@@ -189,6 +187,19 @@
     border-bottom: transparent;
 }
 
+/* stile seconda sezione slide */
+
+.bg-white{
+    background-color: white;
+}
+
+.bg-white img{
+    width: 80%;
+}
+
+.bg-white h5{
+    margin-bottom: 50px;
+}
 
 
 
@@ -211,5 +222,7 @@
             margin-bottom: 80px;
         }
 
-
+        .bg-white img{
+            width: 100%;
+        }
 }
