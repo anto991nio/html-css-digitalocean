@@ -44,6 +44,27 @@
     margin: 5px 0;
 }
 
+.menu-scomparsa{
+    display: none; 
+    background-color:white;
+    line-height: 30px;
+    float: right;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    width: 200px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.menu-scomparsa a{
+    border-bottom: 1px solid black;
+    text-decoration: none;
+}
+
+.menu-scomparsa  li:hover{
+    background-color: lightgray;
+}
+
 
 /* stile sezione hero */
 .my-pd-pagina{
@@ -172,29 +193,41 @@
 .bg-grade li{
     border-bottom: 1px solid white;
     line-height: 40px;
+    width: 100%;
 }
 
 .bg-grade span{
     display: inline-block;
-    width: 80px;
+    width: 20%;
 }
 
 .bg-grade p{
-    width: 250px;
+    width: 60%;
 }
 
 .bg-grade .no-bordo{
     border-bottom: transparent;
 }
 
+.color-test{
+    color: rgb(0, 215, 210);
+}
+
+.color-test:hover{
+    color: rgba(0, 215, 210, 0.5);
+    text-decoration: none;
+}
+
 /* stile seconda sezione slide */
 
 .bg-white{
     background-color: white;
+    margin-bottom: 30px;
+    border-radius: 10px;
 }
 
 .bg-white img{
-    width: 80%;
+    width: 60%;
 }
 
 .bg-white h5{
@@ -239,29 +272,30 @@ footer ul{
 }
 
 .fissato img{
-    width: 100px;
+    width: 70px;
 }
 
 
 .notifica
 {
-    width: 30px;
-    height: 30px;
+    width: 35px;
+    height: 35px;
     background-color: red;
     border:5px solid white;
     text-align: center;
     border-radius: 50%;
     position: absolute;
-    top:-5px;
-    right:-10px;
+    top:-10px;
+    right:-15px;
     color: white;
-    font-size: 10px;
-    line-height: 20px;
+    font-size: 15px;
+    
 }
 
 #colore{
     background-color: rgb(0, 106, 255);
     display: inline-block;
+    border-radius: 5px;
 
 }
 
@@ -317,5 +351,10 @@ footer ul{
 
         .bg-white img{
             width: 100%;
+        }
+
+        .my-btncollasso:hover + .menu-scomparsa{
+            display: inline-block;
+            
         }
 }
